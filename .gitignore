@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/*
+!logs/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+data/chroma/
+data/reports/*.pdf
+eval/results/*
+!eval/results/.gitkeep
+.DS_Store

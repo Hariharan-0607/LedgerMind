@@ -1,0 +1,20 @@
+# Tested together on Python 3.13 (plan targets 3.11/3.12; both should work).
+openai==3.35.1
+python-dotenv==1.2.4
+yfinance==1.7.0
+pandas==3.0.6
+numpy==2.5.4
+pymupdf==2.0
+chromadb==1.5.9
+feedparser==6.0.14
+fastapi==0.156.0
+uvicorn==0.54.0
+streamlit==1.66.0
+plotly==7.1.0
+tenacity==9.2.1
+pydantic==2.14.1
+httpx==0.28.1
+pytest==9.1.1
+# Optional but recommended for semantic retrieval (pulls in PyTorch, large download).
+# Without it, Chroma's built-in ONNX MiniLM embedder is used automatically.
+# sentence-transformers

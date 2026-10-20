@@ -1,0 +1,272 @@
+[
+ {
+  "id": "ret-infosys-01",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "What drove revenue growth during the year?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-02",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "How did operating margin change and why?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-03",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "What are the key risk factors?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-04",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "How many employees does the company have and what was attrition?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-05",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "What is the capital allocation or dividend policy?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-06",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "Which industry segments contributed most to revenue?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-07",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "What does management say about large deal wins?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-08",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "How is the company using generative AI?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-09",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "What are the ESG or sustainability commitments?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-infosys-10",
+  "company": "Infosys",
+  "report_year": null,
+  "query": "What does the auditor's report conclude?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-01",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "What was the impact of the merger with HDFC Limited?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-02",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "How did net interest margin change?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-03",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "What is the gross NPA ratio and asset quality trend?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-04",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "How did deposits grow during the year?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-05",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "What is the capital adequacy ratio?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-06",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "What is the branch network expansion strategy?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-07",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "What are the key risks highlighted by the bank?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-08",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "How did retail loan growth perform?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-09",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "What does management say about the credit-deposit ratio?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-hdfc-10",
+  "company": "HDFC Bank",
+  "report_year": null,
+  "query": "What digital banking initiatives are described?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-01",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "What were the demand conditions in decorative paints?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-02",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "How did raw material prices affect margins?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-03",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "What is the home decor business strategy?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-04",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "What capacity expansion projects are underway?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-05",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "How did international business perform?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-06",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "What are the key risk factors?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-07",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "How did competition affect the business?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-08",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "What does management say about volume versus value growth?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-09",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "What is the dividend recommendation?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ },
+ {
+  "id": "ret-asian-10",
+  "company": "Asian Paints",
+  "report_year": null,
+  "query": "What sustainability initiatives are described?",
+  "expected_page_labels": [],
+  "verified": false,
+  "notes": "Fill expected_page_labels from the ingested PDF, then set verified=true."
+ }
+]

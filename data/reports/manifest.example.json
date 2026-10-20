@@ -1,0 +1,8 @@
+[
+ {"company": "Infosys", "pdf": "data/reports/infosys-annual-report-2025.pdf", "year": 2025, "fy": "FY2025",
+  "title": "Infosys Integrated Annual Report 2024-25"},
+ {"company": "HDFC Bank", "pdf": "data/reports/hdfc-bank-annual-report-2025.pdf", "year": 2025, "fy": "FY2025",
+  "title": "HDFC Bank Integrated Annual Report 2024-25"},
+ {"company": "Asian Paints", "pdf": "data/reports/asian-paints-annual-report-2025.pdf", "year": 2025, "fy": "FY2025",
+  "title": "Asian Paints Integrated Annual Report 2024-25"}
+]
