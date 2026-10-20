@@ -4,6 +4,8 @@ from __future__ import annotations
 
 NAVY = "#1B2A4A"
 NAVY_DARK = "#121D36"
+NAVY_SOFT = "#E6EAF2"
+BLUE_MID = "#2E6F9E"
 AMBER = "#E0A43A"
 SLATE = "#7D8CB0"
 INK = "#16181D"
@@ -12,16 +14,18 @@ BORDER = "#E0DFDB"
 UP = "#13795B"
 DOWN = "#B3402A"
 
-SERIES = [NAVY, AMBER, SLATE, "#B3402A", "#4F535C"]
+# Three blues stepping dark to light: distinct in greyscale and for colour-blind readers.
+# Never chart in amber, UP or DOWN (red and green read as loss and gain).
+SERIES = [NAVY, BLUE_MID, SLATE]
 
 CSS = f"""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"], button, input, textarea {{
   font-family: 'IBM Plex Sans', system-ui, sans-serif;
 }}
-h1, h2, h3, h4 {{ font-family: 'Bricolage Grotesque', 'IBM Plex Sans', sans-serif !important; letter-spacing: -0.01em; }}
+h1, h2, h3, h4 {{ font-family: 'IBM Plex Serif', Georgia, serif !important; font-weight: 600; letter-spacing: -0.01em; }}
 code, .lm-mono {{ font-family: 'IBM Plex Mono', ui-monospace, monospace; font-feature-settings: "tnum"; }}
 header[data-testid="stHeader"] {{ background: transparent; }}
 .block-container, [data-testid="stMainBlockContainer"] {{ padding-top: 4.5rem; max-width: 1360px; }}
@@ -29,7 +33,7 @@ header[data-testid="stHeader"] {{ background: transparent; }}
 .lm-bar {{ background: {NAVY}; color: #fff; border-radius: 12px; padding: 14px 20px; display: flex;
   align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 1rem; }}
 .lm-bar .lm-logo {{ width: 28px; height: 28px; border-radius: 7px; background: {AMBER}; display: grid; place-items: center; }}
-.lm-bar .lm-name {{ font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 18px; }}
+.lm-bar .lm-name {{ font-family: 'IBM Plex Serif', Georgia, serif; font-weight: 600; font-size: 18px; }}
 .lm-bar .lm-pill {{ margin-left: auto; font-size: 12px; color: #D9DEEA; border: 1px solid rgba(255,255,255,.22);
   border-radius: 999px; padding: 4px 10px; display: inline-flex; gap: 8px; align-items: center; }}
 .lm-bar .lm-dot {{ width: 8px; height: 8px; border-radius: 50%; background: {AMBER}; }}
@@ -57,7 +61,7 @@ header[data-testid="stHeader"] {{ background: transparent; }}
 .lm-trust small {{ color: {MUTED}; font-size: 12px; }}
 
 .lm-chip {{ display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; margin: 0 6px 6px 0; }}
-.lm-chip.co {{ background: #FBEFD5; color: {NAVY_DARK}; }}
+.lm-chip.co {{ background: {NAVY_SOFT}; color: {NAVY}; }}
 .lm-chip.cmp {{ background: #DFF0E7; color: #106B4F; }}
 .lm-chip.muted {{ background: #EFEEEA; color: {MUTED}; font-weight: 500; }}
 
@@ -87,5 +91,5 @@ PLOTLY_LAYOUT = dict(
     plot_bgcolor="#FFFFFF",
     margin=dict(l=10, r=10, t=50, b=10),
     legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, title=None),
-    title=dict(font=dict(family="Bricolage Grotesque, sans-serif", size=16)),
+    title=dict(font=dict(family="IBM Plex Serif, Georgia, serif", size=16)),
 )

@@ -256,9 +256,9 @@ def research_note_html(result: dict) -> str:
     answer = "".join(f"<p>{esc(par)}</p>" for par in (result.get("answer") or "").split("\n\n") if par.strip())
     sources = "".join(f"<li>[{c['number']}] {esc(c['label'])}</li>" for c in result.get("citations", []))
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>LedgerMind note {esc(result.get('run_id'))}</title>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
 <style>@page{{size:A4;margin:18mm}}body{{font:12pt/1.55 'IBM Plex Sans',sans-serif;color:#16181D;max-width:720px;margin:auto}}
-h1{{font-family:'Bricolage Grotesque',sans-serif;font-size:24pt;line-height:1.15;margin:.2em 0}}h2{{font-size:13pt;margin:1.4em 0 .4em}}
+h1{{font-family:'IBM Plex Serif',Georgia,serif;font-weight:600;font-size:24pt;line-height:1.15;margin:.2em 0}}h2{{font-size:13pt;margin:1.4em 0 .4em}}
 .top{{border-bottom:2px solid #16181D;padding-bottom:8px;font-size:10pt;color:#4F535C}}table{{border-collapse:collapse;width:100%;font-size:10pt}}
 td,th{{border-bottom:1px solid #E0DFDB;padding:5px 6px;text-align:left}}footer{{margin-top:2em;border-top:1px solid #E0DFDB;padding-top:8px;font-size:9pt;color:#4F535C}}</style>
 </head><body><div class="top"><b>LedgerMind</b> · Research note · run {esc(result.get('run_id'))}</div>
